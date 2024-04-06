@@ -1,9 +1,15 @@
 import test.Main2;
 
+import java.util.Scanner;
+
 public class Main {
     public  String text2;
     public static void main(String[] args) {
         Main2 main2 = new Main2();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите имя!");
+        String string = scanner.nextLine();
+        System.out.println(string);
 
 
         System.out.println("hello world!");//sout - intelliji
